@@ -1,0 +1,211 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Chapter9_3 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP189.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Chapter9_3.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\C++ STL Source\09\Chapter9_3\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP189.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Chapter9_3.pdb" /debug /machine:I386 /out:"Debug/Chapter9_3.exe" /pdbtype:sept 
+".\Debug\main.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18A.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+c:\program files\microsoft visual studio\vc98\include\utility(27) : error C2953: 'pair' : template class has already been defined
+        c:\program files\microsoft visual studio\vc98\include\utility(27) : see declaration of 'pair'
+c:\program files\microsoft visual studio\vc98\include\utility(31) : error C2995: '==' : template function has already been defined
+        d:\stlport\stlport\stl\_pair.h(60) : see declaration of '=='
+c:\program files\microsoft visual studio\vc98\include\utility(35) : error C2995: '!=' : template function has already been defined
+        d:\stlport\stlport\stl\_pair.h(75) : see declaration of '!='
+c:\program files\microsoft visual studio\vc98\include\utility(40) : error C2995: '<' : template function has already been defined
+        d:\stlport\stlport\stl\_pair.h(66) : see declaration of '<'
+c:\program files\microsoft visual studio\vc98\include\utility(44) : error C2995: '>' : template function has already been defined
+        d:\stlport\stlport\stl\_pair.h(80) : see declaration of '>'
+c:\program files\microsoft visual studio\vc98\include\utility(48) : error C2995: '<=' : template function has already been defined
+        d:\stlport\stlport\stl\_pair.h(85) : see declaration of '<='
+c:\program files\microsoft visual studio\vc98\include\utility(52) : error C2995: '>=' : template function has already been defined
+        d:\stlport\stlport\stl\_pair.h(90) : see declaration of '>='
+c:\program files\microsoft visual studio\vc98\include\utility(55) : error C2995: 'make_pair' : template function has already been defined
+        d:\stlport\stlport\stl\_pair.h(122) : see declaration of 'make_pair'
+c:\program files\microsoft visual studio\vc98\include\utility(57) : error C2011: 'input_iterator_tag' : 'struct' type redefinition
+c:\program files\microsoft visual studio\vc98\include\utility(58) : error C2011: 'output_iterator_tag' : 'struct' type redefinition
+c:\program files\microsoft visual studio\vc98\include\utility(60) : error C2011: 'forward_iterator_tag' : 'struct' type redefinition
+c:\program files\microsoft visual studio\vc98\include\utility(62) : error C2011: 'bidirectional_iterator_tag' : 'struct' type redefinition
+c:\program files\microsoft visual studio\vc98\include\utility(64) : error C2011: 'random_access_iterator_tag' : 'struct' type redefinition
+c:\program files\microsoft visual studio\vc98\include\utility(71) : error C2982: 'iterator' : new template parameter list has less parameters than the previous declaration
+        c:\program files\microsoft visual studio\vc98\include\utility(71) : see declaration of 'iterator'
+c:\program files\microsoft visual studio\vc98\include\utility(71) : error C2953: 'iterator' : template class has already been defined
+        c:\program files\microsoft visual studio\vc98\include\utility(71) : see declaration of 'iterator'
+c:\program files\microsoft visual studio\vc98\include\utility(84) : error C2953: 'iterator_traits' : template class has already been defined
+        c:\program files\microsoft visual studio\vc98\include\utility(84) : see declaration of 'iterator_traits'
+c:\program files\microsoft visual studio\vc98\include\utility(106) : error C2995: '_Distance' : template function has already been defined
+        d:\stlport\stlport\stl\_iterator_base.h(408) : see declaration of '_Distance'
+c:\program files\microsoft visual studio\vc98\include\utility(174) : error C2953: 'reverse_iterator' : template class has already been defined
+        c:\program files\microsoft visual studio\vc98\include\utility(174) : see declaration of 'reverse_iterator'
+c:\program files\microsoft visual studio\vc98\include\utility(180) : error C2995: '==' : template function has already been defined
+        d:\stlport\stlport\stl\_iterator_old.h(257) : see declaration of '=='
+c:\program files\microsoft visual studio\vc98\include\utility(186) : error C2995: '!=' : template function has already been defined
+        d:\stlport\stlport\stl\_iterator_old.h(281) : see declaration of '!='
+c:\program files\microsoft visual studio\vc98\include\utility(192) : error C2995: '<' : template function has already been defined
+        d:\stlport\stlport\stl\_iterator_old.h(268) : see declaration of '<'
+c:\program files\microsoft visual studio\vc98\include\utility(198) : error C2995: '>' : template function has already been defined
+        d:\stlport\stlport\stl\_iterator_old.h(291) : see declaration of '>'
+c:\program files\microsoft visual studio\vc98\include\utility(204) : error C2995: '<=' : template function has already been defined
+        d:\stlport\stlport\stl\_iterator_old.h(301) : see declaration of '<='
+c:\program files\microsoft visual studio\vc98\include\utility(210) : error C2995: '>=' : template function has already been defined
+        d:\stlport\stlport\stl\_iterator_old.h(311) : see declaration of '>='
+c:\program files\microsoft visual studio\vc98\include\utility(216) : error C2995: '-' : template function has already been defined
+        d:\stlport\stlport\stl\_iterator_old.h(323) : see declaration of '-'
+c:\program files\microsoft visual studio\vc98\include\utility(222) : error C2995: '+' : template function has already been defined
+        d:\stlport\stlport\stl\_iterator_old.h(335) : see declaration of '+'
+c:\program files\microsoft visual studio\vc98\include\utility(291) : error C2504: 'iterator<struct _STL::output_iterator_tag,void,void>' : base class undefined
+        c:\program files\microsoft visual studio\vc98\include\utility(318) : see reference to class template instantiation '_STL::ostreambuf_iterator<_E,_Tr>' being compiled
+c:\program files\microsoft visual studio\vc98\include\utility(323) : error C2995: '!=' : template function has already been defined
+        d:\stlport\stlport\stl\_pair.h(134) : see declaration of '!='
+c:\program files\microsoft visual studio\vc98\include\utility(326) : error C2995: '>' : template function has already been defined
+        d:\stlport\stlport\stl\_pair.h(139) : see declaration of '>'
+c:\program files\microsoft visual studio\vc98\include\utility(329) : error C2995: '<=' : template function has already been defined
+        d:\stlport\stlport\stl\_pair.h(144) : see declaration of '<='
+c:\program files\microsoft visual studio\vc98\include\utility(332) : error C2995: '>=' : template function has already been defined
+        d:\stlport\stlport\stl\_pair.h(149) : see declaration of '>='
+c:\program files\microsoft visual studio\vc98\include\xmemory(34) : error C2995: '_Construct' : template function has already been defined
+        d:\stlport\stlport\stl\_construct.h(93) : see declaration of '_Construct'
+c:\program files\microsoft visual studio\vc98\include\xmemory(38) : error C2995: '_Destroy' : template function has already been defined
+        d:\stlport\stlport\stl\_construct.h(56) : see declaration of '_Destroy'
+c:\program files\microsoft visual studio\vc98\include\xmemory(72) : error C2953: 'allocator' : template class has already been defined
+        c:\program files\microsoft visual studio\vc98\include\xmemory(72) : see declaration of 'allocator'
+c:\program files\microsoft visual studio\vc98\include\xmemory(75) : error C2995: '==' : template function has already been defined
+        d:\stlport\stlport\stl\_alloc.h(395) : see declaration of '=='
+c:\program files\microsoft visual studio\vc98\include\xmemory(78) : error C2995: '!=' : template function has already been defined
+        d:\stlport\stlport\stl\_alloc.h(396) : see declaration of '!='
+c:\program files\microsoft visual studio\vc98\include\xmemory(80) : error C2011: 'allocator<void>' : 'class' type redefinition
+c:\program files\microsoft visual studio\vc98\include\xutility(20) : error C2995: 'copy' : template function has already been defined
+        d:\stlport\stlport\stl\_algobase.h(214) : see declaration of 'copy'
+c:\program files\microsoft visual studio\vc98\include\xutility(26) : error C2995: 'copy_backward' : template function has already been defined
+        d:\stlport\stlport\stl\_algobase.h(241) : see declaration of 'copy_backward'
+c:\program files\microsoft visual studio\vc98\include\xutility(30) : error C2995: 'equal' : template function has already been defined
+        d:\stlport\stlport\stl\_algobase.h(418) : see declaration of 'equal'
+c:\program files\microsoft visual studio\vc98\include\xutility(34) : error C2995: 'equal' : template function has already been defined
+        d:\stlport\stlport\stl\_algobase.h(430) : see declaration of 'equal'
+c:\program files\microsoft visual studio\vc98\include\xutility(39) : error C2995: 'fill' : template function has already been defined
+        d:\stlport\stlport\stl\_algobase.h(324) : see declaration of 'fill'
+c:\program files\microsoft visual studio\vc98\include\xutility(54) : error C2995: 'lexicographical_compare' : template function has already been defined
+        d:\stlport\stlport\stl\_algobase.h(445) : see declaration of 'lexicographical_compare'
+c:\program files\microsoft visual studio\vc98\include\xutility(64) : error C2995: 'lexicographical_compare' : template function has already been defined
+        d:\stlport\stlport\stl\_algobase.h(449) : see declaration of 'lexicographical_compare'
+c:\program files\microsoft visual studio\vc98\include\xutility(90) : error C2995: 'mismatch' : template function has already been defined
+        d:\stlport\stlport\stl\_algobase.h(389) : see declaration of 'mismatch'
+c:\program files\microsoft visual studio\vc98\include\xutility(96) : error C2995: 'mismatch' : template function has already been defined
+        d:\stlport\stlport\stl\_algobase.h(403) : see declaration of 'mismatch'
+c:\program files\microsoft visual studio\vc98\include\xutility(101) : error C2995: 'swap' : template function has already been defined
+        d:\stlport\stlport\stl\_algobase.h(61) : see declaration of 'swap'
+c:\program files\microsoft visual studio\vc98\include\xstring(25) : error C2027: use of undefined type 'allocator<char>'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(25) : error C2146: syntax error : missing ';' before identifier 'size_type'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(25) : error C2868: 'size_type' : illegal syntax for using-declaration; expected qualified-name
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(26) : error C2027: use of undefined type 'allocator<char>'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(26) : error C2146: syntax error : missing ';' before identifier 'difference_type'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(26) : error C2868: 'difference_type' : illegal syntax for using-declaration; expected qualified-name
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(27) : error C2027: use of undefined type 'allocator<char>'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(27) : error C2146: syntax error : missing ';' before identifier 'pointer'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(27) : error C2868: 'pointer' : illegal syntax for using-declaration; expected qualified-name
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(28) : error C2027: use of undefined type 'allocator<char>'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(28) : error C2146: syntax error : missing ';' before identifier 'const_pointer'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(28) : error C2868: 'const_pointer' : illegal syntax for using-declaration; expected qualified-name
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(29) : error C2027: use of undefined type 'allocator<char>'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(29) : error C2146: syntax error : missing ';' before identifier 'reference'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(29) : error C2868: 'reference' : illegal syntax for using-declaration; expected qualified-name
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(30) : error C2027: use of undefined type 'allocator<char>'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(30) : error C2146: syntax error : missing ';' before identifier 'const_reference'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(30) : error C2868: 'const_reference' : illegal syntax for using-declaration; expected qualified-name
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(31) : error C2027: use of undefined type 'allocator<char>'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(31) : error C2146: syntax error : missing ';' before identifier 'value_type'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(31) : error C2868: 'value_type' : illegal syntax for using-declaration; expected qualified-name
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(32) : error C2027: use of undefined type 'allocator<char>'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(33) : error C2027: use of undefined type 'allocator<char>'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(193) : error C2556: 'void __thiscall _STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >::insert(int,int,char)' : overloaded function differs only by return type from 'class _STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> > &__thiscall _STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >::insert(int,int,char)'
+        c:\program files\microsoft visual studio\vc98\include\xstring(177) : see declaration of 'insert'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(193) : error C2040: 'insert' : 'void (int,int,char)' differs in levels of indirection from 'class _STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> > &(int,int,char)'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(193) : error C2065: '_Pdif' : undeclared identifier
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(193) : error C2065: '_P' : undeclared identifier
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(193) : error C2065: 'begin' : undeclared identifier
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(193) : error C2258: illegal pure syntax, must be '= 0'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(193) : error C2252: '_P0' : pure specifier can only be specified for functions
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(194) : error C2061: syntax error : identifier '_P0'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xstring(195) : error C2143: syntax error : missing ';' before 'void'
+        c:\program files\microsoft visual studio\vc98\include\stdexcept(29) : see reference to class template instantiation '_STL::basic_string<char,struct _STL::char_traits<char>,class _STL::allocator<char> >' being compiled
+c:\program files\microsoft visual studio\vc98\include\xlocale(95) : error C2460: '_Uninitialized' : uses 'locale', which is being defined
+        c:\program files\microsoft visual studio\vc98\include\xlocale(20) : see declaration of 'locale'
+c:\program files\microsoft visual studio\vc98\include\xlocale(98) : error C2039: '_Ptr' : is not a member of 'locale'
+        c:\program files\microsoft visual studio\vc98\include\xlocale(20) : see declaration of 'locale'
+c:\program files\microsoft visual studio\vc98\include\xlocale(99) : error C2550: 'locale' : constructor initializer lists are only allowed on constructor definitions
+c:\program files\microsoft visual studio\vc98\include\xlocale(99) : error C2227: left of '->_Incref' must point to class/struct/union
+c:\program files\microsoft visual studio\vc98\include\xlocale(100) : error C2143: syntax error : missing ',' before '&'
+c:\program files\microsoft visual studio\vc98\include\xlocale(100) : error C2059: syntax error : '&'
+c:\program files\microsoft visual studio\vc98\include\xlocale(101) : error C2061: syntax error : identifier 'category'
+c:\program files\microsoft visual studio\vc98\include\xlocale(101) : error C2071: 'locale' : illegal storage class
+c:\program files\microsoft visual studio\vc98\include\xlocale(102) : error C2143: syntax error : missing ',' before '&'
+c:\program files\microsoft visual studio\vc98\include\xlocale(102) : error C2059: syntax error : '&'
+c:\program files\microsoft visual studio\vc98\include\xlocale(103) : error C2588: '::~locale' : illegal global destructor
+c:\program files\microsoft visual studio\vc98\include\xlocale(105) : error C2227: left of '->_Decref' must point to class/struct/union
+c:\program files\microsoft visual studio\vc98\include\xlocale(105) : warning C4508: 'locale' : function should return a value; 'void' return type assumed
+c:\program files\microsoft visual studio\vc98\include\xlocale(106) : error C2143: syntax error : missing ';' before '&'
+c:\program files\microsoft visual studio\vc98\include\xlocale(106) : error C2501: 'locale' : missing storage-class or type specifiers
+c:\program files\microsoft visual studio\vc98\include\xlocale(106) : error C2373: 'locale' : redefinition; different type modifiers
+c:\program files\microsoft visual studio\vc98\include\xlocale(106) : error C2143: syntax error : missing ',' before '&'
+c:\program files\microsoft visual studio\vc98\include\xlocale(106) : error C2059: syntax error : '&'
+c:\program files\microsoft visual studio\vc98\include\xlocale(107) : error C2501: '=' : missing storage-class or type specifiers
+c:\program files\microsoft visual studio\vc98\include\xlocale(107) : error C2801: 'operator =' must be a <Unknown> member
+c:\program files\microsoft visual studio\vc98\include\xlocale(107) : error C2065: '_X' : undeclared identifier
+c:\program files\microsoft visual studio\vc98\include\xlocale(107) : error C2228: left of '._Ptr' must have class/struct/union type
+c:\program files\microsoft visual studio\vc98\include\xlocale(108) : error C2227: left of '->_Decref' must point to class/struct/union
+c:\program files\microsoft visual studio\vc98\include\xlocale(108) : fatal error C1003: error count exceeds 100; stopping compilation
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Chapter9_3.exe - 102 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

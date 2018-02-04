@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Chapter15_2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7FF.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Chapter15_2.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\C++ STL Source\15\Chapter15_2\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7FF.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP800.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Chapter15_2.pdb" /debug /machine:I386 /out:"Debug/Chapter15_2.exe" /pdbtype:sept 
+".\Debug\main.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP800.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+D:\C++ STL Source\15\Chapter15_2\main.cpp(24) : warning C4786: '_STL::pair<_STL::_Ht_iterator<char *,_STL::_Const_traits<char *>,char *,_STL::hash<char *>,_STL::_Identity<char *>,strequal,_STL::allocator<char *> >,_STL::_Ht_iterator<char *,_STL::_Const_traits<char *>,char *,_STL::hash<char *>,_STL::_Identity<char *>,strequal,_STL::allocator<char *> > >' : identifier was truncated to '255' characters in the debug information
+Linking...
+
+
+
+<h3>Results</h3>
+Chapter15_2.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
