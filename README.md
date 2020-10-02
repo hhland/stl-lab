@@ -1,2 +1,2 @@
 # std-lab
-C++ STD source
+C++ STD source.
